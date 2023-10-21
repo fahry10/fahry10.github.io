@@ -150,7 +150,7 @@
                 <form name="WPU-fahry">
                   <div class="mb-3">
                     <label for="name" class="form-label">Nama Lengkap</label>
-                    <input type="name" class="form-control" id="name" aria-describedby="name" name="nama"placeholder="ketik nama anda">
+                    <input type="name" class="form-control" id="name" aria-describedby="name" name="nama" placeholder="ketik nama anda">
                   </div>
                   <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
@@ -162,7 +162,7 @@
                   </div>
 
 
-                  <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                  <button type="submit" class="btn btn-primary btn-kirim">Kirim Pesan</button>
 
                   <button class="btn btn-primary btn-loading d-none" type="button" disabled>
                     <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
@@ -186,7 +186,7 @@
 
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbxb4qN6rwIX1f9yBG5wBYTjIzXX1VLKmNAnWqKKD91AuIKrzA_K1hi4tGR4_zcQrNjgiQ/exec'
-      const form = document.forms['WPU-fahry']
+      const form = document.forms['WPU-fahry'];
       const btnKirim = document.querySelector('.btn-kirim');
       const btnLoading = document.querySelector('.btn-loading');
       const myAlert = document.querySelector('.my-alert');
