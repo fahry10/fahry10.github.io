@@ -10,12 +10,3 @@
 section {
   padding-top: 5rem;
 }
-#clock{
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  color: #17d4fe;
-  font-family: Orbitron;
-  letter-spacing: 7px;
-}
